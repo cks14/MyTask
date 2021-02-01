@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyTask</string>
+    <string name="email">Email id<font color='#000000'>*</font>/Phone No<font color='#000000'>*</font> </string>
+    <string name="enter_password">Password<font color='#000000'>*</font></string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="create_account">CREATE AN ACCOUNT</string>
+    <string name="name">Name<font color='#000000'>*</font></string>
+    <string name="email_id">Email<font color='#000000'>*</font></string>
+    <string name="mobile_no">Mobile No<font color='#000000'>*</font></string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">SIGN UP</string>
+</resources>
