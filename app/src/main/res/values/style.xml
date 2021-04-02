@@ -13,6 +13,11 @@
     </style>
 
 
+    <style name="Widget.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/white</item>
+    </style>
+
+
     <style name="Widget.AppCompat.TextView.Login" parent="Widget.AppCompat.TextView">
         <item name="android:textColor">@color/white</item>
         <item name="android:textSize">@dimen/sp16</item>

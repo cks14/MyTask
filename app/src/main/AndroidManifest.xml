@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.mytask">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name=".webservices.MyApp"
         android:allowBackup="true"
@@ -11,20 +13,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyTask">
+        <activity android:name=".WheelPlayActivity"></activity>
+        <activity android:name=".SplashActivity" />
         <activity android:name=".SwapActivity" />
         <activity android:name=".WelcomeActivity" />
         <activity android:name=".register.RegisterActivity" />
         <activity android:name=".product.ListItemActivity" />
-        <activity android:name=".login.LoginActivity"/>
-        <activity android:name=".SplashActivity">
-        <intent-filter>
+        <activity android:name=".login.LoginActivity" />
+        <activity android:name=".SpinPlayActivity">
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
-
-    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>

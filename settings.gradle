@@ -1,2 +1,4 @@
+include ':luckywheel'
+include ':library'
 include ':app'
 rootProject.name = "MyTask"
