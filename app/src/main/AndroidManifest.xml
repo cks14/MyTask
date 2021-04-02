@@ -13,7 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyTask">
-        <activity android:name=".WheelPlayActivity"></activity>
+        <activity android:name=".NextBlankActivity"></activity>
+        <activity android:name=".WheelPlayActivity" />
         <activity android:name=".SplashActivity" />
         <activity android:name=".SwapActivity" />
         <activity android:name=".WelcomeActivity" />
