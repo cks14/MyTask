@@ -14,6 +14,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyTask">
         <activity
+            android:name=".webservices.MainActivity2"
+            android:exported="false" />
+        <activity
             android:name=".webservices.MainActivity"
             android:exported="false" />
         <activity android:name=".NextBlankActivity" />
